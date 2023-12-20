@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C5E76BCEF2B44F88589B0BB /* Pods_ISLoopMeAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D3E2F056EE4DE1A06CB977 /* Pods_ISLoopMeAdapter.framework */; };
+		B9F2E00B2B330B400045E73E /* ISLoopMeCustomInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F2E0032B330B400045E73E /* ISLoopMeCustomInterstitial.m */; };
+		B9F2E00C2B330B400045E73E /* ISLoopMeCustomBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F2E0042B330B400045E73E /* ISLoopMeCustomBanner.m */; };
+		B9F2E00D2B330B400045E73E /* ISLoopMeCustomAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F2E0052B330B400045E73E /* ISLoopMeCustomAdapter.m */; };
+		B9F2E00E2B330B400045E73E /* ISLoopMeCustomRewardedVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F2E0062B330B400045E73E /* ISLoopMeCustomRewardedVideo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9F2DFF52B330B210045E73E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C12AF18080653059E1F7377 /* Pods-ISLoopMeAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISLoopMeAdapter.debug.xcconfig"; path = "Target Support Files/Pods-ISLoopMeAdapter/Pods-ISLoopMeAdapter.debug.xcconfig"; sourceTree = "<group>"; };
+		871EA2DB5AD92A8A1895B697 /* Pods-ISLoopMeAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISLoopMeAdapter.release.xcconfig"; path = "Target Support Files/Pods-ISLoopMeAdapter/Pods-ISLoopMeAdapter.release.xcconfig"; sourceTree = "<group>"; };
+		91D3E2F056EE4DE1A06CB977 /* Pods_ISLoopMeAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISLoopMeAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F2DFF72B330B210045E73E /* libISLoopMeAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libISLoopMeAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F2E0032B330B400045E73E /* ISLoopMeCustomInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISLoopMeCustomInterstitial.m; sourceTree = "<group>"; };
+		B9F2E0042B330B400045E73E /* ISLoopMeCustomBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISLoopMeCustomBanner.m; sourceTree = "<group>"; };
+		B9F2E0052B330B400045E73E /* ISLoopMeCustomAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISLoopMeCustomAdapter.m; sourceTree = "<group>"; };
+		B9F2E0062B330B400045E73E /* ISLoopMeCustomRewardedVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISLoopMeCustomRewardedVideo.m; sourceTree = "<group>"; };
+		B9F2E0072B330B400045E73E /* ISLoopMeCustomAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISLoopMeCustomAdapter.h; sourceTree = "<group>"; };
+		B9F2E0082B330B400045E73E /* ISLoopMeCustomBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISLoopMeCustomBanner.h; sourceTree = "<group>"; };
+		B9F2E0092B330B400045E73E /* ISLoopMeCustomInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISLoopMeCustomInterstitial.h; sourceTree = "<group>"; };
+		B9F2E00A2B330B400045E73E /* ISLoopMeCustomRewardedVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISLoopMeCustomRewardedVideo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9F2DFF42B330B210045E73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5E76BCEF2B44F88589B0BB /* Pods_ISLoopMeAdapter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A43FBA25EF8C7D721D6E33D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91D3E2F056EE4DE1A06CB977 /* Pods_ISLoopMeAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9F2DFEE2B330B210045E73E = {
+			isa = PBXGroup;
+			children = (
+				B9F2DFF92B330B210045E73E /* ISLoopMeAdapter */,
+				B9F2DFF82B330B210045E73E /* Products */,
+				C319EB6B10CBF8272DFBDEA1 /* Pods */,
+				A43FBA25EF8C7D721D6E33D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9F2DFF82B330B210045E73E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9F2DFF72B330B210045E73E /* libISLoopMeAdapter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9F2DFF92B330B210045E73E /* ISLoopMeAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				B9F2E0072B330B400045E73E /* ISLoopMeCustomAdapter.h */,
+				B9F2E0052B330B400045E73E /* ISLoopMeCustomAdapter.m */,
+				B9F2E0082B330B400045E73E /* ISLoopMeCustomBanner.h */,
+				B9F2E0042B330B400045E73E /* ISLoopMeCustomBanner.m */,
+				B9F2E0092B330B400045E73E /* ISLoopMeCustomInterstitial.h */,
+				B9F2E0032B330B400045E73E /* ISLoopMeCustomInterstitial.m */,
+				B9F2E00A2B330B400045E73E /* ISLoopMeCustomRewardedVideo.h */,
+				B9F2E0062B330B400045E73E /* ISLoopMeCustomRewardedVideo.m */,
+			);
+			path = ISLoopMeAdapter;
+			sourceTree = "<group>";
+		};
+		C319EB6B10CBF8272DFBDEA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C12AF18080653059E1F7377 /* Pods-ISLoopMeAdapter.debug.xcconfig */,
+				871EA2DB5AD92A8A1895B697 /* Pods-ISLoopMeAdapter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9F2DFF62B330B210045E73E /* ISLoopMeAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F2E0002B330B210045E73E /* Build configuration list for PBXNativeTarget "ISLoopMeAdapter" */;
+			buildPhases = (
+				7FD040388346D572F7452418 /* [CP] Check Pods Manifest.lock */,
+				B9F2DFF32B330B210045E73E /* Sources */,
+				B9F2DFF42B330B210045E73E /* Frameworks */,
+				B9F2DFF52B330B210045E73E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISLoopMeAdapter;
+			productName = ISLoopMeAdapter;
+			productReference = B9F2DFF72B330B210045E73E /* libISLoopMeAdapter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9F2DFEF2B330B210045E73E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B9F2DFF62B330B210045E73E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B9F2DFF22B330B210045E73E /* Build configuration list for PBXProject "ISLoopMeAdapter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9F2DFEE2B330B210045E73E;
+			productRefGroup = B9F2DFF82B330B210045E73E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9F2DFF62B330B210045E73E /* ISLoopMeAdapter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FD040388346D572F7452418 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISLoopMeAdapter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9F2DFF32B330B210045E73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F2E00E2B330B400045E73E /* ISLoopMeCustomRewardedVideo.m in Sources */,
+				B9F2E00C2B330B400045E73E /* ISLoopMeCustomBanner.m in Sources */,
+				B9F2E00D2B330B400045E73E /* ISLoopMeCustomAdapter.m in Sources */,
+				B9F2E00B2B330B400045E73E /* ISLoopMeCustomInterstitial.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9F2DFFE2B330B210045E73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9F2DFFF2B330B210045E73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9F2E0012B330B210045E73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C12AF18080653059E1F7377 /* Pods-ISLoopMeAdapter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9F2E0022B330B210045E73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871EA2DB5AD92A8A1895B697 /* Pods-ISLoopMeAdapter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9F2DFF22B330B210045E73E /* Build configuration list for PBXProject "ISLoopMeAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F2DFFE2B330B210045E73E /* Debug */,
+				B9F2DFFF2B330B210045E73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F2E0002B330B210045E73E /* Build configuration list for PBXNativeTarget "ISLoopMeAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F2E0012B330B210045E73E /* Debug */,
+				B9F2E0022B330B210045E73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9F2DFEF2B330B210045E73E /* Project object */;
+}
